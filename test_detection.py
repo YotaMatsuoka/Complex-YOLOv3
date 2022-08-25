@@ -146,6 +146,8 @@ if __name__ == "__main__":
 
             # Rescale boxes to original image
             detections = utils.rescale_boxes(detections, opt.img_size, RGB_Map.shape[:2])
+            print(detections)
+            print()
             for x, y, w, l, im, re, conf, cls_conf, cls_pred in detections:
                 yaw = np.arctan2(im, re)
                 # Draw rotated box
@@ -156,6 +158,8 @@ if __name__ == "__main__":
         objects_pred = predictions_to_kitti_format(img_detections, calib, img2d.shape, opt.img_size)  
         
         img2d = mview.show_image_with_boxes(img2d, objects_pred, calib, False)
+        
+        img2d = cv2.resize(img2d, (1224,370))
         
         cv2.imshow("bev img", RGB_Map)
         cv2.imshow("img2d", img2d)
