@@ -1,0 +1,7 @@
+docker cp /home/matsuoka/localgit/ros2ws_lidar_sub/src/pcl2_sub/pcl2_sub/binarydata/10m_front/10m_front.bin 2750f65d72d7:/home/Complex-YOLOv3/data/KITTI/object/sampledata/velodyne/101000.bin
+
+docker cp /home/matsuoka/localgit/ros2ws_lidar_sub/src/pcl2_sub/pcl2_sub/binarydata/10m_front/10m_front.png 2750f65d72d7:/home/Complex-YOLOv3/data/KITTI/object/sampledata/image_2/101000.png
+
+docker cp /home/matsuoka/localgit/ros2ws_lidar_sub/src/pcl2_sub/pcl2_sub/binarydata/10m_front/10m_front.txt 2750f65d72d7:/home/Complex-YOLOv3/data/KITTI/object/sampledata/calib/101000.txt
+
+docker cp /home/matsuoka/localgit/ros2ws_lidar_sub/src/pcl2_sub/pcl2_sub/binarydata/10m_front/label_10m_front.txt 2750f65d72d7:/home/Complex-YOLOv3/data/KITTI/object/sampledata/label_2/101000.txt
