@@ -1,7 +1,7 @@
 easydict==1.9
 torchsummary==1.5.1
 tensorflow
-tensorboard
+tensorboard==2.9.1
 terminaltables
 scikit-learn==0.22.2
 opencv-python==4.2.0.34
