@@ -7,7 +7,14 @@ Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Ob
     $ cd Complex-YOLO-V3/
     $ sudo pip install -r requirements.txt
 
+
 ## Quickstart
+
+#### Docker用
+    $ ./docker_build.sh
+    $ ./docker_run.sh
+##### コンテナ内に入ってから
+    $ export QT_X11_NO_MITSHM=1
 
 #### Download pretrained weights [[yolov3](https://drive.google.com/file/d/1e7PCqeV3tS68KtBIUbX34Uhy81XnsYZV/view), [tiny-yolov3](https://drive.google.com/file/d/19Qvpq2kQyjQ5uhQgi-wcWmSqFy4fcvny/view)]
     $ cd checkpoints/
