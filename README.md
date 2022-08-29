@@ -15,6 +15,8 @@ Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Ob
     $ ./docker_run.sh
 ##### コンテナ内に入ってから
     $ export QT_X11_NO_MITSHM=1
+##### 内部をいじる場合
+    $ apt install gedit
 
 #### Download pretrained weights [[yolov3](https://drive.google.com/file/d/1e7PCqeV3tS68KtBIUbX34Uhy81XnsYZV/view), [tiny-yolov3](https://drive.google.com/file/d/19Qvpq2kQyjQ5uhQgi-wcWmSqFy4fcvny/view)]
     $ cd checkpoints/
